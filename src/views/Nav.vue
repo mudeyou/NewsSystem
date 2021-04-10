@@ -65,7 +65,9 @@ export default {
 }
 .nav .left {
   float: left;
-  margin-left: 150px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .nav li {
   float: left;
